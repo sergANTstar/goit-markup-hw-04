@@ -168,6 +168,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border-radius: c;
  }
 
  .our-advantages-item::before {
@@ -178,7 +179,6 @@ body{
      border-radius: 4px;
      margin-bottom: 30px;
 }
-
 
 .our-advantages-item:first-child {
     margin-left: 15px;
@@ -216,8 +216,6 @@ body{
  .we-doing-item{
     margin-top: 50px;
  }
-
-
  
 .we-doing-item:not(last-child) {
     margin-right: 30px;
@@ -266,7 +264,11 @@ body{
 
 .our-team-item {
     background-color: var(--backround-color);
-    width: 270px;
+    border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .command {
@@ -320,7 +322,7 @@ address {font-style: normal;}
 }
 
 .footer-contacts-text {
-color: var(--backround-color); opacity: 0.6;
+    color: var(--backround-color); opacity: 0.6;
 }
 
 .container-portfolio{
@@ -339,28 +341,28 @@ color: var(--backround-color); opacity: 0.6;
 }
 
 .button-portfolio {
-background-color: #F5F4FA;
-height: 38px;
-border: none ;
-border-radius: 4px;
-padding: 6px 22px 6px 22px;
+    background-color: #F5F4FA;
+    height: 38px;
+    border: none ;
+    border-radius: 4px;
+    padding: 6px 22px 6px 22px;
 
-font-family: 'Roboto', sans-serif;
-cursor: pointer;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
 
 }
 
 
 
 .button-portfolio:hover, .button-portfolio:focus {
-background-color: var(--accent-color);
-color: var(--backround-color);
+    background-color: var(--accent-color);
+    color: var(--backround-color);
 }
 
 .portfolio-items-block {
