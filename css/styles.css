@@ -183,6 +183,7 @@ body{
 .advantages-main {
    padding-top: 94px;
  }
+
 .we-doing, .our-advantages, .our-team  {
     display: flex;
     flex-wrap: wrap;
@@ -192,7 +193,7 @@ body{
 
 .icon-box {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 270px;
