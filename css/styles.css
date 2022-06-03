@@ -286,6 +286,11 @@ body{
     text-align: center;
 }
 
+.icon-social-networks-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .icon-social-networks {
     display: flex;
     flex-wrap: wrap;
