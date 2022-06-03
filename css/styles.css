@@ -190,7 +190,7 @@ body{
 .icon-box {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     width: 270px;
     height: 120px;
     background-color: rgba(245, 244, 250, 1) ;
