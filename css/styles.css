@@ -173,10 +173,11 @@ body{
 
  .icon-advantages{
     display: block;
-   
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1) ;
     border-radius: 4px;
-   background-position: 50% 50%;
-    
+    background-position: 50% 50%;
  }
 
 .our-advantages-item:first-child {
