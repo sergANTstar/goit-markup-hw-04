@@ -286,6 +286,40 @@ body{
     text-align: center;
 }
 
+.companis-container {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.icon-companis-ul  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon-companis-li {
+    width: 170px;
+    height: 92px;
+    outline:  1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.icon-companis-li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.icon-companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 address {font-style: normal;}
 
 .footer {
