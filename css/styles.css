@@ -301,18 +301,14 @@ body{
 }
 
 .icon-companis-li {
-    width: 170px;
-    height: 92px;
-    outline:  1px solid #AFB1B8;
-    border-radius: 4px;
-    cursor: pointer;
+   
 }
 
 .icon-companis-li:not(:last-child) {
     margin-right: 30px;
 }
 
-.icon-companis-li:hover, .icon-companis-li:focus {
+.icon-companies:hover, ..icon-companies:focus {
     outline:  1px solid var(--accent-color);
     fill: var(--accent-color);
 }
@@ -323,6 +319,11 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 170px;
+    height: 92px;
+    outline:  1px solid #AFB1B8;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
