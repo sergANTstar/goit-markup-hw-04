@@ -171,14 +171,11 @@ body{
     border-radius: c;
  }
 
- .our-advantages-item::before {
-     display: block;
-     content:"";
-     height: 70px;
-     background-color: #F5F4FA;
-     border-radius: 4px;
-     margin-bottom: 30px;
-}
+ .icon-advantages{
+    background-color: rgba(245, 244, 250, 1) ;
+    border-radius: 4px;
+    
+ }
 
 .our-advantages-item:first-child {
     margin-left: 15px;
