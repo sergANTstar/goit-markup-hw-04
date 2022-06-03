@@ -116,9 +116,9 @@ body{
     color: var(--accent-color)
 }
 
- .icon-nav:hover, .icon-nav:focus {
+.icon-nav:hover, .icon-nav:focus {
         fill: var(--accent-color);
-    }
+}
 
 .contacts-nav-link:hover, .contacts-nav-link:focus {
     color: var(--accent-color);
@@ -301,11 +301,7 @@ body{
 }
 
 .icon-companis-li {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
+     width: 170px;
     height: 92px;
     outline:  1px solid #AFB1B8;
     border-radius: 4px;
@@ -315,6 +311,13 @@ body{
     margin-right: 30px;
 }
 
+
+.icon-companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
