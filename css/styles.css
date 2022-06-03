@@ -301,6 +301,10 @@ body{
 }
 
 .icon-companis-li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
     outline:  1px solid #AFB1B8;
@@ -311,12 +315,6 @@ body{
     margin-right: 30px;
 }
 
-.icon-companies{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
