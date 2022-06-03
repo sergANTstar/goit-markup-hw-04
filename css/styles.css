@@ -101,11 +101,6 @@ body{
     letter-spacing: 0.02em; 
 }
 
-.icon-nav {
-    width: 16px;
-    height: 16px;
-}
-
 .contacts-nav-link {
     color: var(--second-text-color);
     margin-left: 10px;
@@ -119,6 +114,16 @@ body{
 .footer-contacts:hover, .footer-contacts:focus
  {
     color: var(--accent-color)
+}
+
+ .icon-nav:hover, .contacts-nav-link:hover,
+ .icon-nav:focus, .contacts-nav-link:focus
+ {
+    color: var(--accent-color)
+}
+
+.site-nav-item {
+    cursor: pointer;
 }
 
 .main-headline{
