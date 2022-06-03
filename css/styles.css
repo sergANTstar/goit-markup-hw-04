@@ -300,10 +300,6 @@ body{
     padding-right: 15px;
 }
 
-.icon-companis-li {
-   
-}
-
 .icon-companis-li:not(:last-child) {
     margin-right: 30px;
 }
