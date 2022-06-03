@@ -289,6 +289,8 @@ body{
 .icon-social-networks-ul {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 16px;
+    margin-bottom: 30px;
     padding-right: 32px;
     padding-left: 32px;
 }
