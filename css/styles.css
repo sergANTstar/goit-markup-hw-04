@@ -311,6 +311,11 @@ body{
     margin-right: 30px;
 }
 
+.icon-companis-li:hover, .icon-companis-li:focus {
+    outline:  1px solid var(--accent-color);
+    fill: var(--accent-color);
+}
+
 
 .icon-companies {
     display: flex;
