@@ -123,6 +123,7 @@ body{
     fill: var(--accent-color)
 }
 
+
 .site-nav-item {
     cursor: pointer;
 }
@@ -178,7 +179,7 @@ body{
     letter-spacing: 0.06em;
  }
 
- .advantages-main {
+.advantages-main {
    padding-top: 94px;
  }
 .we-doing, .our-advantages, .our-team  {
@@ -190,14 +191,20 @@ body{
 
 .icon-box {
     display: flex;
-    justify-content: center;
-    align-content: center;
+   
     width: 270px;
     height: 120px;
     background-color: rgba(245, 244, 250, 1) ;
     border-radius: 4px;
    
 }
+
+icon-advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .our-advantages-item:not(:last-child) {
     margin-right: 30px;
