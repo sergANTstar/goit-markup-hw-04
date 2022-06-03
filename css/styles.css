@@ -308,7 +308,7 @@ body{
     margin-right: 30px;
 }
 
-.icon-companies:hover, ..icon-companies:focus {
+.icon-companies:hover, .icon-companies:focus {
     outline:  1px solid var(--accent-color);
     fill: var(--accent-color);
 }
