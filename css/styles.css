@@ -185,16 +185,20 @@ body{
 .icon-box {
     display: flex;
     justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1) ;
+    border-radius: 4px;
    
 }
 
 .icon-advantages{
     display: flex;
     justify-content: center;
-    width: 270px;
-    height: 120px;
-    background-color: rgba(245, 244, 250, 1) ;
-    border-radius: 4px;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+   
 }
 
 .our-advantages-item:not(:last-child) {
