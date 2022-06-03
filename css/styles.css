@@ -290,9 +290,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: 16px;
-    margin-bottom: 30px;
     padding-right: 32px;
     padding-left: 32px;
+}
+
+.icon-social-networks-li:not(:last-child) {
+    margin-right: 10px;
 }
 
 .icon-social-networks {
@@ -304,10 +307,6 @@ body{
     width: 44px;
     height: 44px;
     cursor: pointer;
-}
-
-.icon-social-networks-li:not(:last-child) {
-    margin-right: 10px;
 }
 
 .companis-container {
