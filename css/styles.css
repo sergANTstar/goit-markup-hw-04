@@ -115,7 +115,7 @@ body{
 }
 
 .site-nav-link:hover, .site-nav-link:focus,
-.site-nav-item:hover, .contacts-nav-item:focus,
+.site-nav-item:hover, .site-nav-item:focus,
 .footer-contacts:hover, .footer-contacts:focus
  {
     color: var(--accent-color)
@@ -196,14 +196,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70px;
-    height: 70px;
-   
+    
 }
 
 .our-advantages-item:not(:last-child) {
     margin-right: 30px;
-
 }
 
 .our-advantages-item {
