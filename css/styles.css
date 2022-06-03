@@ -301,10 +301,11 @@ body{
 }
 
 .icon-companis-li {
-     width: 170px;
+    width: 170px;
     height: 92px;
     outline:  1px solid #AFB1B8;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .icon-companis-li:not(:last-child) {
