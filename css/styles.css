@@ -115,7 +115,7 @@ body{
 }
 
 .site-nav-link:hover, .site-nav-link:focus,
-.contacts-nav-link:hover, .contacts-nav-link:focus,
+.site-nav-item:hover, .contacts-nav-item:focus,
 .footer-contacts:hover, .footer-contacts:focus
  {
     color: var(--accent-color)
