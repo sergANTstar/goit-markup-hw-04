@@ -286,6 +286,20 @@ body{
     text-align: center;
 }
 
+.icon-social-networks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.icon-social-networks:not(:last-child) {
+    margin-right: 10px;
+}
+
 .companis-container {
     display: flex;
     padding-top: 94px;
@@ -321,8 +335,6 @@ body{
     border-radius: 4px;
     cursor: pointer;
 }
-
-
 
 address {font-style: normal;}
 
