@@ -309,6 +309,11 @@ body{
     cursor: pointer;
 }
 
+.icon-social-networks:hover, .icon-social-networks:focus {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
 .companis-container {
     display: flex;
     padding-top: 94px;
