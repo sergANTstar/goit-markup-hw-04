@@ -119,7 +119,8 @@ body{
  .icon-nav:hover, .contacts-nav-link:hover,
  .icon-nav:focus, .contacts-nav-link:focus
  {
-    color: var(--accent-color)
+    color: var(--accent-color);
+    fill: var(--accent-color)
 }
 
 .site-nav-item {
