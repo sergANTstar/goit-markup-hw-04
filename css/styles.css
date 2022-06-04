@@ -109,6 +109,10 @@ body{
     letter-spacing: 0.02em;
 }
 
+.icon-nav {
+    fill: rgba(117, 117, 117, 1);
+}
+
 .site-nav-link:hover, .site-nav-link:focus,
 .site-nav-item:hover, .site-nav-item:focus,
 .footer-contacts:hover, .footer-contacts:focus
@@ -117,7 +121,7 @@ body{
 }
 
 .icon-nav:hover, .icon-nav:focus {
-        fill: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .contacts-nav-link:hover, .contacts-nav-link:focus {
