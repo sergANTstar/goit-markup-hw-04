@@ -354,6 +354,10 @@ body{
     fill: var(--accent-color);
 }
 
+.icon-companie {
+    fill: var(--accent-color);
+}
+
 address {font-style: normal;}
 
 .footer {
