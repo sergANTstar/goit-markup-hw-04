@@ -118,14 +118,19 @@ body{
     fill: var(--accent-color);
 }
 
+.icon-nav-hover {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+}
+
 .site-nav-link:hover, .site-nav-link:focus,
 {
     color: var(--accent-color);
 }
 
-.icon-nav:hover, .icon-nav:focus {
-    fill: var(--accent-color);
-}
 
 .contacts-nav-link:hover, .contacts-nav-link:focus {
     color: var(--accent-color);
