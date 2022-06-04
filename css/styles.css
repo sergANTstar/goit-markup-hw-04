@@ -136,6 +136,10 @@ body{
     fill: var(--accent-color);
 }
 
+.site-nav-link:focus, .site-nav-link:hover {
+    color: var(--accent-color);
+}
+
 .site-nav-item {
     cursor: pointer;
 }
