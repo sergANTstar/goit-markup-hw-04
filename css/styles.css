@@ -314,11 +314,13 @@ body{
     
 }
 
-
 .icon-social-networks:hover, .icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
+    fill: var(--backround-color);
 }
+
+
 
 .companis-container {
     display: flex;
