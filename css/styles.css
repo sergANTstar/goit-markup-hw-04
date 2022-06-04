@@ -126,11 +126,12 @@ body{
   fill: currentColor;
 }
 
-.icon-nav-hover:hover, .icon-nav-hover:focus {
+
+
+.contacts-nav-link:hover, .contacts-nav-link:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
-
 
 .site-nav-link:focus, .site-nav-link:hover {
     color: var(--accent-color);
