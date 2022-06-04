@@ -113,18 +113,12 @@ body{
     fill: rgba(117, 117, 117, 1);
 }
 
-.icon-nav-hover:hover, .icon-nav-hover:focus {
+.contacts-nav-link:hover, .contacts-nav-link:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
 
-.icon-nav-hover {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
-}
 
 .site-nav-link:hover, .site-nav-link:focus,
 {
