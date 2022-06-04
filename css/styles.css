@@ -122,6 +122,10 @@ body{
     margin-left: 10px;
 }
 
+.icon-nav{
+    fill: currentColor;
+}
+
 .contacts-nav-link:hover, .contacts-nav-link:focus {
     color: var(--accent-color);
 }
