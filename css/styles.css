@@ -377,6 +377,10 @@ address {font-style: normal;}
     color: var(--backround-color);
 }
 
+.footer .icon-social-networks-ul{
+    padding: 0px;
+}
+
 .footer-contacts {
     color: var(--backround-color)
 }
