@@ -317,11 +317,9 @@ body{
    }
 
 
-.icon-social-networks:hover,
- .icon-social-networks:focus {
+.icon-social-networks {
     background-color: var(--accent-color);
     border-radius: 50%;
-    
 }
 
 
