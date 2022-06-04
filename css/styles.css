@@ -317,14 +317,9 @@ body{
 
 .icon-s-n {
     fill: #AFB1B8;
-    padding: 11px;
     
 }
 
-.icon-s-n:hover, .icon-s-n:focus {
-    fill: var(--backround-color);
-    
-}
 
 .icon-social-networks:hover, .icon-social-networks:focus {
     background-color: var(--accent-color);
