@@ -326,7 +326,7 @@ body{
 }
 
 .icon-s-n {
-    fill: #AFB1B8;
+    color: #AFB1B8;
    }
 
 
@@ -334,7 +334,7 @@ body{
  .icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
-    fill:tomato;
+   color: rgba(117, 117, 117, 1);
 }
 
 .companis-container {
@@ -373,7 +373,7 @@ body{
 }
 
 .icon-companie {
-    fill: #AFB1B8
+    color: #AFB1B8;
 }
 
 address {font-style: normal;}
