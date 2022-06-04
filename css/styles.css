@@ -350,6 +350,10 @@ body{
     cursor: pointer;
 }
 
+.icon-s-n {
+    fill: var(--accent-color);
+}
+
 address {font-style: normal;}
 
 .footer {
