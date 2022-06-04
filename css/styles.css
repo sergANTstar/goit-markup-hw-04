@@ -122,6 +122,7 @@ body{
 
 .contacts-nav-link:hover, .contacts-nav-link:focus {
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 
