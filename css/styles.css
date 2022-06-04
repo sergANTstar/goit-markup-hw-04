@@ -113,11 +113,14 @@ body{
     fill: rgba(117, 117, 117, 1);
 }
 
+.icon-nav-hover:hover, .icon-nav-hover:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
 .site-nav-link:hover, .site-nav-link:focus,
-.site-nav-item:hover, .site-nav-item:focus,
-.footer-contacts:hover, .footer-contacts:focus
- {
-    color: var(--accent-color)
+{
+    color: var(--accent-color);
 }
 
 .icon-nav:hover, .icon-nav:focus {
@@ -404,6 +407,11 @@ address {font-style: normal;}
 
 .footer-contacts-text {
     color: var(--backround-color); opacity: 0.6;
+}
+
+.footer-contacts:hover, .footer-contacts:focus
+ {
+    color: var(--accent-color)
 }
 
 .container-portfolio{
