@@ -317,7 +317,8 @@ body{
    }
 
 
-.icon-social-networks {
+.icon-social-networks:hover,
+ .icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
 }
