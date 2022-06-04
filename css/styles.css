@@ -325,10 +325,10 @@ body{
 
 
 .icon-social-networks:hover,
- .icon-social-networks:focus {
+.icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
-    fill: var(--backround-color);
+    color: var(--backround-color);
 }
 
 .companis-container {
@@ -351,7 +351,7 @@ body{
 
 .icon-companies:hover, .icon-companies:focus {
     outline:  1px solid var(--accent-color);
-    fill: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .icon-companies {
