@@ -303,21 +303,19 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     width: 44px;
     height: 44px;
-   
+    cursor: pointer;
 }
 
 .icon-s-n {
-    fill: #AFB1B8;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-    cursor: pointer;
+    fill: #AFB1B8
+    
 }
 
 
-.icon-s-n:hover, .icon-s-n:focus {
+.icon-social-networks:hover, .icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
 }
