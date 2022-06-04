@@ -396,6 +396,10 @@ address {font-style: normal;}
     margin-right: 70px;
 }
 
+.footer-maine-li:nth-child(2) {
+    margin-right: 93px;
+}
+
 .footer-addresslist {
     margin-top: 20px;
 }
