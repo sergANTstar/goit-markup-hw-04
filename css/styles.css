@@ -326,7 +326,7 @@ body{
     
 }
 
-.icon-social-networks:hover .icon-s-n, .icon-social-networks:focus .icon-s-n {
+.icon-social-networks:hover, .icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
 }
