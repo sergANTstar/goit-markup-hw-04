@@ -118,8 +118,6 @@ body{
     fill: var(--accent-color);
 }
 
-
-
 .site-nav-link:hover, .site-nav-link:focus
 {
     color: var(--accent-color);
@@ -130,7 +128,6 @@ body{
     color: var(--accent-color);
     fill: var(--accent-color);
 }
-
 
 .site-nav-item {
     cursor: pointer;
@@ -390,7 +387,14 @@ address {font-style: normal;}
 }
 
 .footer-maine {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin-left: 15px;
+}
+
+.footer-maine-li:first-child {
+    margin-right: 70px;
 }
 
 .footer-addresslist {
@@ -412,6 +416,12 @@ address {font-style: normal;}
 .footer-contacts:hover, .footer-contacts:focus
  {
     color: var(--accent-color)
+}
+
+.footer-header {
+    font-weight: 700;
+    text-transform: uppercase;
+    
 }
 
 .container-portfolio{
