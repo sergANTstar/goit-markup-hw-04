@@ -70,6 +70,8 @@ body{
 
 .site-nav {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .item-nav:not(:last-child) {
@@ -101,7 +103,15 @@ body{
     letter-spacing: 0.02em; 
 }
 
+.site-nav-item{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .contacts-nav-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     color: var(--second-text-color);
     margin-left: 10px;
 
@@ -346,9 +356,6 @@ body{
     outline:  1px solid var(--accent-color);
     fill: var(--accent-color);
 }
-
-
-
 
 .icon-companies {
     display: flex;
