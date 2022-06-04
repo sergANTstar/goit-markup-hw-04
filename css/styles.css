@@ -345,6 +345,10 @@ body{
     fill: var(--backround-color);
 }
 
+.icon-companie:hover, .icon-companie:focus {
+    fill: var(--backround-color);
+}
+
 
 .icon-companies {
     display: flex;
