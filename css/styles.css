@@ -324,8 +324,6 @@ body{
     fill: var(--backround-color);
 }
 
-
-
 .companis-container {
     display: flex;
     padding-top: 94px;
@@ -346,11 +344,11 @@ body{
 
 .icon-companies:hover, .icon-companies:focus {
     outline:  1px solid var(--accent-color);
-    fill: var(--backround-color);
+    fill: var(--accent-color);
 }
 
 .icon-companie:hover, .icon-companie:focus {
-    fill: var(--backround-color);
+    fill: tomato;
 }
 
 
