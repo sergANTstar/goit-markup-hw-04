@@ -317,11 +317,12 @@ body{
 
 .icon-s-n {
     fill: #AFB1B8;
-    
+    padding: 11px;
 }
 
 
-.icon-social-networks:hover, .icon-social-networks:focus {
+.icon-social-networks:hover .icon-s-n,
+ .icon-social-networks:focus .icon-s-n {
     background-color: var(--accent-color);
     border-radius: 50%;
     fill: var(--backround-color);
