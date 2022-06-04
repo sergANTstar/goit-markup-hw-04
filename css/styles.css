@@ -351,11 +351,11 @@ body{
 }
 
 .icon-s-n {
-    fill: var(--accent-color);
+    fill: #AFB1B8
 }
 
 .icon-companie {
-    fill: var(--accent-color);
+    fill: #AFB1B8
 }
 
 address {font-style: normal;}
