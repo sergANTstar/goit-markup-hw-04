@@ -123,19 +123,17 @@ body{
 }
 
 .icon-nav {
-    fill: rgba(117, 117, 117, 1);
+   color: currentColor;
+}
+
+.icon-nav-hover {
+    full:#AFB1B8 ;
 }
 
 .icon-nav-hover:hover, .icon-nav-hover:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
-
-.site-nav-link:hover, .site-nav-link:focus
-{
-    color: var(--accent-color);
-}
-
 
 .contacts-nav-link:hover, .contacts-nav-link:focus {
     color: var(--accent-color);
@@ -323,10 +321,11 @@ body{
     cursor: pointer;
     width: 44px;
     height: 44px;
+    color: #AFB1B8;
 }
 
 .icon-s-n {
-    color: #3151c5;
+    fill: currentColor;
    }
 
 
@@ -334,7 +333,7 @@ body{
  .icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
-   color: rgba(117, 117, 117, 1);
+    fill: var(--backround-color);
 }
 
 .companis-container {
@@ -370,10 +369,11 @@ body{
     outline:  1px solid #AFB1B8;
     border-radius: 4px;
     cursor: pointer;
+    color: #AFB1B8;
 }
 
 .icon-companie {
-    color: #AFB1B8;
+    fill:currentColor;
 }
 
 address {font-style: normal;}
