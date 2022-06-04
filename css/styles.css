@@ -416,11 +416,6 @@ address {font-style: normal;}
     color: var(--backround-color); opacity: 0.6;
 }
 
-.footer-contacts:hover, .footer-contacts:focus
- {
-    color: var(--accent-color)
-}
-
 .footer-header {
     font-weight: 700;
     text-transform: uppercase;
