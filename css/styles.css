@@ -317,14 +317,18 @@ body{
 }
 
 .icon-s-n {
-    fill: #AFB1B8
+    fill: #AFB1B8;
     
 }
 
-.icon-social-networks:hover, .icon-social-networks:focus {
+.icon-s-n:hover, .icon-s-n:focus {
+    fill: var(--backround-color);
+    
+}
+
+.icon-social-networks:hover .icon-s-n, .icon-social-networks:focus .icon-s-n {
     background-color: var(--accent-color);
     border-radius: 50%;
-    fill: var(--backround-color);
 }
 
 
