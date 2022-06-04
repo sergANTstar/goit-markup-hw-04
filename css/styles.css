@@ -321,7 +321,7 @@ body{
  .icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
-    fill: var(--backround-color);
+    fill:tomato;
 }
 
 .companis-container {
@@ -347,9 +347,7 @@ body{
     fill: var(--accent-color);
 }
 
-.icon-companie:hover, .icon-companie:focus {
-    fill: tomato;
-}
+
 
 
 .icon-companies {
