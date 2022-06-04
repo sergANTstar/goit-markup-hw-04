@@ -303,6 +303,8 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 44px;
+    height: 44px;
    
 }
 
