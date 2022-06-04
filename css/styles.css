@@ -313,11 +313,11 @@ body{
     cursor: pointer;
     width: 44px;
     height: 44px;
-    cursor: pointer;
 }
 
 .icon-s-n {
     fill: #AFB1B8;
+    padding: 11px;
     
 }
 
@@ -329,6 +329,7 @@ body{
 .icon-social-networks:hover, .icon-social-networks:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
+    fill: var(--backround-color);
 }
 
 
