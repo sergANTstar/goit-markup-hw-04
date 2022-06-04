@@ -126,10 +126,6 @@ body{
    color: currentColor;
 }
 
-.icon-nav-hover {
-    full:#AFB1B8 ;
-}
-
 .icon-nav-hover:hover, .icon-nav-hover:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
@@ -325,7 +321,7 @@ body{
 }
 
 .icon-s-n {
-    fill: currentColor;
+    color: currentColor;
    }
 
 
@@ -373,7 +369,7 @@ body{
 }
 
 .icon-companie {
-    fill:currentColor;
+   color:currentColor;
 }
 
 address {font-style: normal;}
