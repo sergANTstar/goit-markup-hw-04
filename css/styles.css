@@ -308,18 +308,16 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    width: 44px;
-    height: 44px;
+    padding: 11px;
 }
 
 .icon-s-n {
     fill: #AFB1B8;
-    padding: 11px;
 }
 
 
-.icon-social-networks:hover,
- .icon-social-networks:focus {
+.icon-s-n:hover,
+.icon-s-n:focus {
     background-color: var(--accent-color);
     border-radius: 50%;
     fill: var(--backround-color);
