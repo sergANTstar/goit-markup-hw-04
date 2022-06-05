@@ -25,15 +25,16 @@ h1, h2, h3, h4, p, a {
 }
 
 .main-header-block {
-    height: 80px;
     border-bottom: 1px solid #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-main{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .list{
@@ -84,6 +85,10 @@ body{
     margin-left:  93px;
  }
 
+ .site-nav-item {
+     display: flex;
+ }
+
 .site-nav-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -110,6 +115,13 @@ body{
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+.header-contact-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .contacts-nav-link {
     display: flex;
