@@ -18,6 +18,8 @@ h1, h2, h3, h4, p, a {
 }
 .container{
     width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -192,12 +194,13 @@ body{
 .advantages-main {
    padding-top: 94px;
  }
+ .we-doing {
+    margin-top: 50px;
+ }
 
 .we-doing, .our-advantages, .our-team  {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 15px;
-    padding-right: 15px;
  }
 
 .icon-box {
@@ -225,10 +228,6 @@ body{
     padding-bottom: 94px;
 }
 
- .we-doing-item{
-    margin-top: 50px;
-}
- 
 .we-doing-item:not(:last-child){
     margin-right: 30px;
     
@@ -340,8 +339,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .icon-companis-li:not(:last-child) {
@@ -478,8 +475,6 @@ address {font-style: normal;}
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .portfolio-items-main {
