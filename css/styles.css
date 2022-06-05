@@ -383,6 +383,13 @@ address {font-style: normal;}
 
 .footer .icon-social-networks-ul{
     padding: 0px;
+    
+}
+
+.footer .icon-social-networks {
+    color: var(--backround-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 
 .footer-contacts {
