@@ -24,15 +24,16 @@ h1, h2, h3, h4, p, a {
     margin-right: auto;
 }
 
-.header-block {
+.main-header-block {
     height: 80px;
     border-bottom: 1px solid #ECECEC;
 }
 
-.main-header-block {
+.header-main{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .list{
@@ -387,6 +388,13 @@ address {font-style: normal;}
     color: var(--backround-color);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+}
+
+.footer .icon-social-networks:hover ,
+.footer .icon-social-networks:focus  {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    color: var(--backround-color);
 }
 
 .footer-contacts {
